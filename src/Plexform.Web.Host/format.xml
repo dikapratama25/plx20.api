@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Document>
+  <header>
+    <Items>
+      <Item Length='32' Name='Filler0' Value='' Type='1' />
+      <Item Length='5' Name='RecordType' Value='C' Type='1' />
+      <Item Length='7' Name='HighestJournalNumberUsed' Value='' Type='1' />
+      <Item Length='5' Name='LastCleardownSequenceUsed' Value='' Type='1' />
+      <Item Length='2' Name='Filler1' Value='' Type='1' />
+      <Item Length='2' Name='LanguageID' Value='' Type='1' />
+      <Item Length='463' Name='Filler2' Value='' Type='1' />
+    </Items>
+  </header>
+  <body>
+    <section1>
+      <Items>
+        <Item Length='10' Name='AccountCode' Value='G20101' Type='1' />
+        <Item Length='5' Name='Filler3' Value='' Type='1' />
+        <Item Length='7' Name='AccountingPeriod' Value='' Type='1' />
+        <Item Length='8' Name='TransactionDate' Value='' Type='1' />
+        <Item Length='2' Name='Filler4' Value='' Type='1' />
+        <Item Length='1' Name='RecordType' Value='L' Type='1' />
+        <Item Length='7' Name='JournalNumber' Value='' Type='1' />
+        <Item Length='7' Name='Line' Value='' Type='2' />
+        <Item Length='18' Name='Amount' Value='' Type='8' />
+        <Item Length='1' Name='DebitCreditMarker' Value='C' Type='1' />
+        <Item Length='1' Name='AllocationIndicator' Value='' Type='1' />
+        <Item Length='5' Name='JournalType' Value='JRC' Type='1' />
+        <Item Length='5' Name='JournalSource' Value='' Type='1' />
+        <Item Length='15' Name='TransactionReference' Value='' Type='1' />
+        <Item Length='25' Name='Description' Value='' Type='1' />
+        <Item Length='8' Name='EntryDate' Value='' Type='1' />
+        <Item Length='7' Name='EntryPeriod' Value='' Type='1' />
+        <Item Length='8' Name='DueDate' Value='' Type='9' />
+        <Item Length='6' Name='Filler5' Value='' Type='1' />
+        <Item Length='9' Name='PaymentAllocationRef' Value='' Type='2' />
+        <Item Length='8' Name='PaymentAllocationDate' Value='' Type='2' />
+        <Item Length='7' Name='PaymentAllocationPeriod' Value='' Type='2' />
+        <Item Length='1' Name='AssetIndicator' Value='' Type='1' />
+        <Item Length='10' Name='AssetCode' Value='' Type='1' />
+        <Item Length='5' Name='AssetSubCode' Value='' Type='1' />
+        <Item Length='5' Name='ConversionCode' Value='' Type='1' />
+        <Item Length='18' Name='ConversionRate' Value='' Type='10' />
+        <Item Length='18' Name='OtherAmount' Value='' Type='8' />
+        <Item Length='1' Name='OtherAmountDecimalPlaces' Value='' Type='1' />
+        <Item Length='5' Name='Cleardown' Value='' Type='1' />
+        <Item Length='4' Name='Filler6' Value='' Type='1' />
+        <Item Length='1' Name='NextPeriodReversal' Value='' Type='1' />
+        <Item Length='1' Name='TextLinked' Value='' Type='1' />
+        <Item Length='1' Name='RoughBookFlag' Value='' Type='1' />
+        <Item Length='1' Name='InUseFlag' Value='' Type='1' />
+        <Item Length='15' Name='AnalysisCode0' Value='' Type='11' />
+        <Item Length='15' Name='AnalysisCode1' Value='' Type='11' />
+        <Item Length='15' Name='AnalysisCode2' Value='' Type='11' />
+        <Item Length='15' Name='AnalysisCode3' Value='' Type='11' />
+        <Item Length='15' Name='AnalysisCode4' Value='' Type='11' />
+        <Item Length='15' Name='AnalysisCode5' Value='' Type='11' />
+        <Item Length='15' Name='AnalysisCode6' Value='' Type='11' />
+        <Item Length='15' Name='AnalysisCode7' Value='' Type='11' />
+        <Item Length='15' Name='AnalysisCode8' Value='' Type='11' />
+        <Item Length='15' Name='AnalysisCode9' Value='' Type='11' />
+        <Item Length='8' Name='PostingDate' Value='' Type='1' />
+        <Item Length='1' Name='UpdateOrderBalInd' Value='' Type='1' />
+        <Item Length='1' Name='AllocationInProgress' Value='' Type='1' />
+        <Item Length='5' Name='HoldReference' Value='' Type='1' />
+        <Item Length='3' Name='HoldOperatorID' Value='' Type='1' />
+        <Item Length='15' Name='BudgetAccount' Value='' Type='1' />
+        <Item Length='3' Name='AllocationMarkerID' Value='' Type='1' />
+        <Item Length='8' Name='AllocationMarkerDate' Value='' Type='1' />
+        <Item Length='77' Name='Filler8' Value='' Type='1' />
+      </Items>
+    </section1>
+    <section2>
+      <Items>
+        <Item Length='10' Name='AccountCode' Value='' Type='1' />
+        <Item Length='5' Name='Filler3' Value='' Type='1' />
+        <Item Length='7' Name='AccountingPeriod' Value='' Type='1' />
+        <Item Length='8' Name='TransactionDate' Value='' Type='1' />
+        <Item Length='2' Name='Filler4' Value='' Type='1' />
+        <Item Length='1' Name='RecordType' Value='L' Type='1' />
+        <Item Length='7' Name='JournalNumber' Value='' Type='1' />
+        <Item Length='7' Name='Line' Value='' Type='1' />
+        <Item Length='18' Name='Amount' Value='' Type='8' />
+        <Item Length='1' Name='DebitCreditMarker' Value='' Type='1' />
+        <Item Length='1' Name='AllocationIndicator' Value='' Type='1' />
+        <Item Length='5' Name='JournalType' Value='JRC' Type='1' />
+        <Item Length='5' Name='JournalSource' Value='' Type='1' />
+        <Item Length='15' Name='TransactionReference' Value='' Type='1' />
+        <Item Length='25' Name='Description' Value='' Type='1' />
+        <Item Length='8' Name='EntryDate' Value='' Type='1' />
+        <Item Length='7' Name='EntryPeriod' Value='' Type='1' />
+        <Item Length='8' Name='DueDate' Value='' Type='9' />
+        <Item Length='6' Name='Filler5' Value='' Type='1' />
+        <Item Length='9' Name='PaymentAllocationRef' Value='' Type='2' />
+        <Item Length='8' Name='PaymentAllocationDate' Value='' Type='9' />
+        <Item Length='7' Name='PaymentAllocationPeriod' Value='' Type='9' />
+        <Item Length='1' Name='AssetIndicator' Value='' Type='1' />
+        <Item Length='10' Name='AssetCode' Value='' Type='1' />
+        <Item Length='5' Name='AssetSubCode' Value='' Type='1' />
+        <Item Length='5' Name='ConversionCode' Value='' Type='1' />
+        <Item Length='18' Name='ConversionRate' Value='' Type='10' />
+        <Item Length='18' Name='OtherAmount' Value='' Type='8' />
+        <Item Length='1' Name='OtherAmountDecimalPlaces' Value='' Type='1' />
+        <Item Length='5' Name='Cleardown' Value='' Type='1' />
+        <Item Length='4' Name='Filler6' Value='' Type='1' />
+        <Item Length='1' Name='NextPeriodReversal' Value='' Type='1' />
+        <Item Length='1' Name='TextLinked' Value='' Type='1' />
+        <Item Length='1' Name='RoughBookFlag' Value='' Type='1' />
+        <Item Length='1' Name='InUseFlag' Value='' Type='1' />
+        <Item Length='15' Name='AnalysisCode0' Value='' Type='11' />
+        <Item Length='15' Name='AnalysisCode1' Value='' Type='11' />
+        <Item Length='15' Name='AnalysisCode2' Value='' Type='11' />
+        <Item Length='15' Name='AnalysisCode3' Value='' Type='11' />
+        <Item Length='15' Name='AnalysisCode4' Value='' Type='11' />
+        <Item Length='15' Name='AnalysisCode5' Value='' Type='11' />
+        <Item Length='15' Name='AnalysisCode6' Value='' Type='11' />
+        <Item Length='15' Name='AnalysisCode7' Value='' Type='11' />
+        <Item Length='15' Name='AnalysisCode8' Value='' Type='11' />
+        <Item Length='15' Name='AnalysisCode9' Value='' Type='11' />
+        <Item Length='8' Name='PostingDate' Value='' Type='1' />
+        <Item Length='1' Name='UpdateOrderBalInd' Value='' Type='1' />
+        <Item Length='1' Name='AllocationInProgress' Value='' Type='1' />
+        <Item Length='5' Name='HoldReference' Value='' Type='1' />
+        <Item Length='3' Name='HoldOperatorID' Value='' Type='1' />
+        <Item Length='15' Name='BudgetAccount' Value='' Type='1' />
+        <Item Length='3' Name='AllocationMarkerID' Value='' Type='1' />
+        <Item Length='8' Name='AllocationMarkerDate' Value='' Type='1' />
+        <Item Length='77' Name='Filler8' Value='' Type='1' />
+      </Items>
+    </section2>
+  </body>
+</Document>

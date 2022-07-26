@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\common.props"></Import>
+  <PropertyGroup Label="Globals">
+    <SccProjectName>%24/Git/plx20.api/src/Plexform.EntityFrameworkCore</SccProjectName>
+    <SccProvider>{4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}</SccProvider>
+    <SccAuxPath>http://42.61.96.158:8080/tfs/cx%2520projects</SccAuxPath>
+    <SccLocalPath>.</SccLocalPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <RootNamespace>Plexform</RootNamespace>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <GenerateBindingRedirectsOutputType>true</GenerateBindingRedirectsOutputType>
+    <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Migrations\20200305145558_Add_Dynamic_Entity_Parameters.cs" />
+    <Compile Remove="Migrations\20200305145558_Add_Dynamic_Entity_Parameters.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <!--<ProjectReference Include="..\..\..\plexform-accounting\Plexform.DTO.Accounting\Plexform.DTO.Accounting.csproj" />
+    <ProjectReference Include="..\..\..\plexform-clobid\Plexform.DTO.Clobid\Plexform.DTO.Clobid.csproj" />
+    <ProjectReference Include="..\..\..\plexform-core\Plexform.DTO.Campaign\Plexform.DTO.Campaign.csproj" />-->
+    <ProjectReference Include="..\..\..\plexform-core\Plexform.DTO.Core\Plexform.DTO.Core.csproj" />
+    <ProjectReference Include="..\..\..\plexform-core\Plexform.DTO.Inventory\Plexform.DTO.Inventory.csproj" />
+    <ProjectReference Include="..\..\..\plexform-zero\aspnet-core\src\Plexform.Core\Plexform.Core.csproj" />
+  </ItemGroup>
+</Project>

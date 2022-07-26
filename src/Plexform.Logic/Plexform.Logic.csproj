@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup Label="Globals">
+    <SccProjectName>SAK</SccProjectName>
+    <SccProvider>SAK</SccProvider>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccLocalPath>SAK</SccLocalPath>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>amdrizal</Authors>
+    <Company>collexe</Company>
+    <Product>plexform</Product>
+    <Version>1.0.0</Version>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ANEO-p2p\ANEO.Base.P2P\ANEO.Base.P2P.csproj" />
+    <!--<ProjectReference Include="..\..\..\plexform-crossmarq\Plexform.Base.CrossmarQ\Plexform.Base.CrossmarQ.csproj" />-->
+    <ProjectReference Include="..\..\..\plexform-inventory\Plexform.Base.Inventory\Plexform.Base.Inventory.csproj" />
+    <!--<ProjectReference Include="..\..\..\plexform-accounting\Plexform.Base.Accounting\Plexform.Base.Accounting.csproj" />-->
+    <!--<ProjectReference Include="..\..\..\plexform-clobid\Plexform.Base.Clobid\Plexform.Base.Clobid.csproj" />-->
+    <ProjectReference Include="..\..\..\plexform-core\Plexform.Base.Core\Plexform.Base.Core.csproj" />
+    <ProjectReference Include="..\..\..\plexform-zero\aspnet-core\src\Plexform.Web.Core\Plexform.Web.Core.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<template name="registrationconfirmation">
+  <![CDATA[
+   <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap" rel="stylesheet">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>{title}</title>
+
+  <style type="text/css">
+    
+    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { -ms-interpolation-mode: bicubic; }
+    /* / RESET STYLES / */
+    img { border: 0; outline: none; text-decoration: none; }
+    table { border-collapse: collapse !important; }
+    body { margin: 0 !important; padding: 0 !important; width: 100% !important; }
+    /* / iOS BLUE LINKS / */
+    a[x-apple-data-detectors] {
+      color: inherit !important;
+      text-decoration: none !important;
+      font-size: inherit !important;
+      font-family: inherit !important;
+      font-weight: inherit !important;
+      line-height: inherit !important;
+    }
+    /* / ANDROID CENTER FIX / */
+    div[style*="margin: 16px 0;"] { margin: 0 !important; }
+    /* / MEDIA QUERIES / */
+    @media all and (max-width:600px){ 
+      .wrapper{ width:320px!important; padding: 0 !important; }
+      .container{ width:300px!important;  padding: 0 !important; }
+      .mobile{ width:600px!important; display:block!important; padding: 0 !important; }
+      .img{ width:100% !important; height:auto !important; }
+      *[class="mobileOff"] { width: 0px !important; display: none !important; }
+      *[class*="mobileOn"] { width: 100% !important; display: block; !important; max-height:none !important; }
+    }
+  </style>    
+</head>
+<body style="margin:0; padding:0; background-color:#F2F2F2;">
+  
+  <span style="display: block; width: 640px !important; max-width: 640px; height: 1px" class="mobile mobileOn"></span>
+  
+  <center>
+    <table width="100%" border="0" cellpadding="0" cellspacing="0" bgcolor="#F2F2F2" style="margin-top: 40px; class="mobile mobileOn">
+      <tbody><tr>
+        <td align="center" valign="top">
+            
+          <table width="640" class="mobile mobileOn" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#ffffff" style="
+    background-color: #ffffff;
+">
+            <tbody><tr><td height="20"></td></tr>
+<tr>
+              <td align="center" valign="top">
+
+                <table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+                  <tbody><tr>
+                    <td align="center" valign="top">
+                      <!-- <h1 style="color: #F2F2F2; font-family: 'Poppins', sans-serif;">Logo</h1> -->
+                      <img src="{logo}" alt="lgm-logo" height="75" width="75" style="padding: 5px;">
+                    </td>
+                  </tr>
+                </tbody></table>
+              </td>
+            </tr>
+<tr><td height="10"></td></tr>
+<tr><td style="
+    font-family: arial;
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    text-transform: uppercase;
+">{companyName}</td></tr>
+<tr style="border-bottom:1px solid #ccc"><td height="20"></td></tr>
+          </tbody></table>
+
+
+          <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#ffffff">
+                <tbody><tr>
+                  <td align="center" valign="top">
+    
+                    <table width="600" cellpadding="0" cellspacing="0" border="0" class="container" style="margin-top: 20px;">
+                      <tbody><tr>
+                        <td align="center" valign="top">
+                          <!-- <h1 style="color: #F2F2F2; font-family: 'Poppins', sans-serif;">Logo</h1> -->
+                         
+                          <a href=""><img src="http://collexe.com/wp-content/uploads/2019/11/mailIllustration2.jpg" title="email_illustration" width="" style="
+    width: 230px;
+"></a>
+                        </td>
+                      </tr>
+                    </tbody></table>
+                  </td>
+                </tr>
+            </tbody></table>
+
+              <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#ffffff">
+                    <tbody><tr>
+                      <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+                    </tr>
+                    <tr>
+                      <td align="center" valign="top">
+        
+                        <table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+                          <tbody><tr>
+                            <td align="center" valign="top" color="#F2F2F2">
+                                <div style="max-width: 400px;">
+                                    <h2 style="color:rgb(68, 184, 157);font-family: 'Poppins', sans-serif;margin-bottom: 7px;">{desc}</h2>
+                                    <p style="color: #7FD6C2;font-family: 'Poppins', sans-serif;margin-top: 0;color: #666;margin-bottom: 20px;"> {infoBelow}</p>
+                                </div>
+                            </td>
+                          </tr>
+                        </tbody></table>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+                    </tr>
+                </tbody></table>
+
+                <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#ffffff">
+                        <tbody><tr>
+                          <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td align="center" valign="top">
+            
+                            <table cellpadding="0" cellspacing="0" border="0" class="container">
+                              <tbody><tr>
+                                <td width="300" class="mobile" align="center" valign="top">
+                                        <div style="color:#161616; font-family: 'Poppins', sans-serif;">
+                                                <p>{col1}	            : <b>{col1Value}</b></p>
+                                                <p>{col2}	            : <b>{col2Value}</b></p>
+                                                <p>{col3}             : <b>{col3Value}</b></p>
+                                            </div>
+                                </td>
+                              </tr>
+                            </tbody></table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+                        </tr>
+                      </tbody></table>
+
+                      <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#ffffff">
+                            <tbody><tr>
+                              <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <td align="center" valign="top">
+                
+                                <table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+                                  <tbody><tr>
+                                    <td align="center" valign="top" color="#F2F2F2">
+                                      <hr style="color: #72788D;
+                                        opacity: 0.5;
+                                        border-radius: 10px;">
+                                    </td>
+                                  </tr>
+                                </tbody></table>
+                
+                              </td>
+                            </tr>
+                          </tbody></table>
+
+                          <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#ffffff">
+                                <tbody><tr>
+                                  <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td align="center" valign="top">
+                    
+                                    <table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+                                      <tbody><tr>
+                                        <td align="center" valign="top" color="#F2F2F2">
+                                                <p style="color:#5E5E5E; font-family: 'Poppins', sans-serif; 
+                                                max-width: 400px;
+                                                font-size: 14px;
+                                                font-weight: 400;"> 
+                                                  {buttonDesc} </p>
+                                        </td>
+                                      </tr>
+                                    </tbody></table>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+                                </tr>
+                            </tbody></table>
+        
+                    <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#ffffff">
+                            <tbody><tr>
+                              <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <td align="center" valign="top">
+                                <table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+                                  <tbody><tr>
+                                    <td align="center" valign="top" color="#F2F2F2">
+                                       <div style="background: rgb(68, 184, 157);; 
+                                        padding: 10px; 
+                                        color:#ffffff;
+                                        text-align: center; 
+                                        border-radius: 5px;
+                                        font-family: 'Poppins', sans-serif;
+                                        max-width: 200px;
+                                        font-size: 20px;
+                                        font-weight: 600;
+                                        box-shadow: 0px 8px 15px rgba(114, 120, 141, 0.2);
+                                        cursor: pointer;
+                                        outline: none;">
+                                           <a href="{linkRoot}" style="text-decoration: none; color: white;">{buttonName}</a>
+                                       </div>
+                                    </td>
+                                  </tr>
+                                </tbody></table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td height="25" style="font-size:10px; line-height:10px;">&nbsp;</td>
+                            </tr>
+                    </tbody></table>
+
+                    <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#ffffff" style="
+    background-color: #e4e4e4;
+">
+                            <tbody><tr>
+                              <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <td align="center" valign="top">
+                
+                                <table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+                                  <tbody><tr>
+                                    <td align="center" valign="top" color="#F2F2F2">
+                                      <p style="color:#5E5E5E; font-family: 'Poppins', sans-serif; 
+                                       max-width: 400px;
+                                       font-size: 14px;
+                                       font-weight: 400;"> 
+                                         {DoNotReplay} </p>
+                                    </td>
+                                  </tr>
+                                </tbody></table>
+                
+                              </td>
+                            </tr>
+                            <tr>
+                              <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+                            </tr>
+                        </tbody></table>
+            
+                        <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="" style="
+    background-color: #cccccc;
+">
+                                <tbody><tr>
+                                  <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                  <td align="center" valign="top">
+    <table>
+<tbody><tr>
+<td align="center">
+<table width="80" cellpadding="0" cellspacing="0" border="0" class="container">
+                                      <tbody><tr>
+                                        
+
+                                        <td align="center"><a href="{facebook}" target="_blank" data-saferedirecturl="{redirectFacebook}"><img src="{logoFacebook}" width="27" class="CToWUd"></a></td> 
+                                            
+                                            <td align="center"><a href="{twitter}" target="_blank" data-saferedirecturl="{redirectTwitter}"><img src="{logoTwitter}" width="27" class="CToWUd"></a></td> 
+                                          
+                                        
+                                      </tr>
+                                    </tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table width="100%" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#cccccc">
+                                <tbody><tr>
+                                  <td align="center" valign="top">
+                    
+                                    <table width="600" cellpadding="0" cellspacing="0" border="0" class="container">
+                                      <tbody><tr>
+                                        <td align="center" valign="top">
+                                            <div style="height: 5px;"></div>
+<div style="width:100%">
+                                                    <span style="
+                                                    color: #161616;
+                                                    font-size: 14px;
+                                                    font-family: 'Poppins', sans-serif;
+                                                    font-weight: 600;
+                                                    "> 
+                                                            {kementrian}
+                                                    </span>
+                                                    
+                                                    
+                                                    <div style="height:10px"></div>
+<div style="color: #161616; font-size: 12px; font-family: 'Poppins', sans-serif;
+                                                    ">
+                                                            {address} 
+                                                    </div>
+                                                    
+                                                    
+<div style="color: #161616; font-size: 12px; font-family: 'Poppins', sans-serif;
+                                                    ">
+                                                            {contact}
+                                                    </div>
+                                            </div>
+<div style="height:20px"></div>
+                                        </td>
+                                      </tr>
+                                    </tbody></table>
+                                        <table width="640" cellpadding="0" cellspacing="0" border="0" class="wrapper" bgcolor="#ffffff" style="background-color: #e4e4e4;">
+                            <tbody><tr>
+                              <td height="10" style="font-size:10px; line-height:10px;">&nbsp;</td>
+                            </tr>
+                            <tr>
+                              <td align="left" valign="top">
+                
+                                <table width="579px" cellpadding="0" cellspacing="0" border="0" class="container">
+                                  <tbody>
+								  <tr>
+								    <td style="width: 50px;"></td>
+                                    <td align="left" valign="top">
+                                      <p style="color:#5E5E5E; font-family: 'Poppins', sans-serif; 
+                                       max-width: 400px;
+                                       font-size: 14px;
+                                       font-weight: 400;"> 
+                                          {disclaimer} : </p>
+                                    </td>
+                                  </tr>
+								   <tr>
+								    <td style="width: 50px;"></td>
+                                    <td align="left" valign="top">
+                                      <p style="color:#5E5E5E; font-family: 'Poppins', sans-serif; 
+                                       font-size: 11px;
+                                       font-weight: 300;
+                                       margin-top: 0px;"> 
+                                           {ContentDisclaimer1} </p>
+										 <p style="color:#5E5E5E; font-family: 'Poppins', sans-serif; 
+                                       font-size: 11px;
+                                       font-weight: 300;">
+                                        {ContentDisclaimer2}</p>
+                                    </td>
+                                  </tr>
+                                </tbody>
+								</table>
+                                  </td>
+                                </tr>
+                        </tbody>
+</table>
+</td>
+</tr>
+</tbody></table>
+                                    
+                    
+                                  </td>
+                                </tr>
+                                <tr>
+                                
+                                </tr>
+                        </tbody></table>
+
+            
+                        
+            
+        </td>
+      </tr>
+    </tbody></table>
+  </center>
+
+
+</body>
+</html>
+  ]]>
+</template>
