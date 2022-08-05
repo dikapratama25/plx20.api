@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <Authors>amdrizal</Authors>
     <Company>collexe</Company>
     <Product>plexform</Product>
@@ -18,6 +18,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\..\ANEO-p2p\ANEO.Base.P2P\ANEO.Base.P2P.csproj" />
+    <ProjectReference Include="..\..\..\limsNEO.base\ClassLibrary1\LIMS.Base.csproj" />
     <!--<ProjectReference Include="..\..\..\plexform-crossmarq\Plexform.Base.CrossmarQ\Plexform.Base.CrossmarQ.csproj" />-->
     <ProjectReference Include="..\..\..\plexform-inventory\Plexform.Base.Inventory\Plexform.Base.Inventory.csproj" />
     <!--<ProjectReference Include="..\..\..\plexform-accounting\Plexform.Base.Accounting\Plexform.Base.Accounting.csproj" />-->

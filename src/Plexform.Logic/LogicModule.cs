@@ -13,7 +13,8 @@ using Plexform.Web.Configuration;
 namespace Plexform.Web
 {
     [DependsOn(
-		typeof(ANEO.Base.P2P.P2PModule)
+		typeof(ANEO.Base.P2P.P2PModule),
+        typeof(LIMS.Base.LIMSModule)
 		//typeof(Plexform.Base.Clobid.ClobidModule),
 		//typeof(Plexform.Base.CrossmarQ.CrossmarQModule),
         //typeof(Plexform.Base.Inventory.BaseInventoryModule),
